@@ -37,9 +37,9 @@ module Robot =
             | 'm' -> facing |> fun f ->
                 match f with
                 | Facing.North -> validateAndProcessMove x (y + 1) facing
-                | Facing.East -> validateAndProcessMove (x - 1) y facing
+                | Facing.East -> validateAndProcessMove (x + 1) y facing
                 | Facing.South -> validateAndProcessMove x (y - 1) facing
-                | Facing.West -> validateAndProcessMove (x + 1) y facing
+                | Facing.West -> validateAndProcessMove (x - 1) y facing
                 | _ -> raise(System.ArgumentException("Wrong facing parameter"))
             | _ -> raise(System.ArgumentException("R, L or M was expected"))
         with

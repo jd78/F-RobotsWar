@@ -25,9 +25,9 @@ let WrongFacingConversion() =
     Robot.StringToFacing "c" |> ignore
 
 [<Description("Move aborted if brings the robot outside the arena")>]
-[<TestCase(0, 0, Facing.East, 3, 3)>]
+[<TestCase(3, 0, Facing.East, 3, 3)>]
 [<TestCase(0, 0, Facing.South, 3, 3)>]
-[<TestCase(3, 0, Facing.West, 3, 3)>]
+[<TestCase(0, 0, Facing.West, 3, 3)>]
 [<TestCase(0, 3, Facing.North, 3, 3)>]
 let WrongMove(x, y, facing, arenaX, arenaY) =
     let (rX, rY, _) = Robot.ExecuteCommand (x, y, facing) (arenaX, arenaY) 'M' 
@@ -37,8 +37,8 @@ let WrongMove(x, y, facing, arenaX, arenaY) =
 [<Description("Robot moves in the arena")>]
 [<TestCase(0, 0, Facing.North, 3, 3, 0, 1)>]
 [<TestCase(0, 1, Facing.South, 3, 3, 0, 0)>]
-[<TestCase(2, 0, Facing.West, 3, 3, 3, 0)>]
-[<TestCase(1, 0, Facing.East, 3, 3, 0, 0)>]
+[<TestCase(2, 0, Facing.West, 3, 3, 1, 0)>]
+[<TestCase(1, 0, Facing.East, 3, 3, 2, 0)>]
 let Move(x, y, facing, arenaX, arenaY, expectedX, expectedY) =
     let (rX, rY, _) = Robot.ExecuteCommand (x, y, facing) (arenaX, arenaY) 'M' 
     rX.Should().Equal(expectedX) |> ignore
