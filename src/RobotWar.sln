@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "RobotWar", "RobotWar\RobotWar.fsproj", "{3D3B763A-BEE8-48E7-8FD9-D3A3904D6A89}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "RobotWar.Test", "RobotWar.Test\RobotWar.Test.fsproj", "{74D67ED6-5933-4B3A-9BA4-C6701F9CE147}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "RobotWar.App", "RobotWar.App\RobotWar.App.fsproj", "{A7D3DC10-FDF8-4553-B1B8-4C49C70E9513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D3B763A-BEE8-48E7-8FD9-D3A3904D6A89}.Debug|x86.ActiveCfg = Debug|x86
+		{3D3B763A-BEE8-48E7-8FD9-D3A3904D6A89}.Debug|x86.Build.0 = Debug|x86
+		{3D3B763A-BEE8-48E7-8FD9-D3A3904D6A89}.Release|x86.ActiveCfg = Release|x86
+		{3D3B763A-BEE8-48E7-8FD9-D3A3904D6A89}.Release|x86.Build.0 = Release|x86
+		{74D67ED6-5933-4B3A-9BA4-C6701F9CE147}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74D67ED6-5933-4B3A-9BA4-C6701F9CE147}.Debug|x86.Build.0 = Debug|Any CPU
+		{74D67ED6-5933-4B3A-9BA4-C6701F9CE147}.Release|x86.ActiveCfg = Release|Any CPU
+		{74D67ED6-5933-4B3A-9BA4-C6701F9CE147}.Release|x86.Build.0 = Release|Any CPU
+		{A7D3DC10-FDF8-4553-B1B8-4C49C70E9513}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A7D3DC10-FDF8-4553-B1B8-4C49C70E9513}.Debug|x86.Build.0 = Debug|Any CPU
+		{A7D3DC10-FDF8-4553-B1B8-4C49C70E9513}.Release|x86.ActiveCfg = Release|Any CPU
+		{A7D3DC10-FDF8-4553-B1B8-4C49C70E9513}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

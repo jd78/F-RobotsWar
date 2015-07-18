@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="RobotWar/RobotWar.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RobotWar.Test/RobotTest.fs">
+    <Files>
+      <File FileName="RobotWar/Program.fs" Line="12" Column="34" />
+      <File FileName="RobotWar.App/Robot.fs" Line="34" Column="29" />
+      <File FileName="RobotWar.Test/RobotTest.fs" Line="23" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
