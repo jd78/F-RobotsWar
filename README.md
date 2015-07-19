@@ -1,4 +1,4 @@
-Assignment
+Robots War
 =========
 
 **Requirements**
